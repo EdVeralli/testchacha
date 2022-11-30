@@ -1,0 +1,10 @@
+[package]
+name = "pruebachacha"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xchacha8blake3siv = { git = "https://github.com/PaulGrandperrin/XChaCha8Blake3Siv.git" }
+aead = "0.4"
